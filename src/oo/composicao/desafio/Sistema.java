@@ -13,7 +13,7 @@ public class Sistema {
 		compra2.adicionarItem("Caderno",13.50, 2);
 		compra2.adicionarItem(new Produto("Lapis",1.20), 6);
 		
-		cliente.compras.add(compra1);
+		cliente.adicionarCompra(compra1);
 		cliente.compras.add(compra2);
 		
 		System.out.println(cliente.getValorTotal());

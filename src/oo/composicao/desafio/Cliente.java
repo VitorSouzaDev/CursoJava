@@ -11,6 +11,10 @@ public class Cliente {
 		this.nome = nome;
 	}
 	
+	void adicionarCompra(Compra compra) {
+		this.compras.add(compra);
+	}
+	
 	double getValorTotal() {
 		double total = 0;
 		for(Compra compra: compras) {
