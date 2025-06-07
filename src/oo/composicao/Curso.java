@@ -15,4 +15,9 @@ public class Curso {
 		this.alunos.add(aluno);
 		aluno.cursos.add(this);
 	}	
+	
+	
+	public String toString() {
+		return nome;
+	}
 }
